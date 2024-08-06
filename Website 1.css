@@ -23,11 +23,11 @@ body{
 #Home .container .FirstTitle{
     display: flex;
     width: 100%;
-    border: 2px solid rgba(255, 255, 255, 0.63);
-    border-radius: 10px 10px 10px 10px;
     background: transparent;
     backdrop-filter: blur(5px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border: 2px solid rgba(255, 255, 255, 0.63);
+    border-radius: 10px 10px 10px 10px;
     font-size: 50px;
     text-align: center;
 }
@@ -42,12 +42,12 @@ h1{
     padding-right: 30px;
 }
 .contained .containedImage .Image{
+    padding: 20px;
     background: rgba(87, 87, 87, 0.32);
     backdrop-filter: blur(5px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     border-radius: 10px 10px 10px 10px;
     border: 2px solid rgba(255, 255, 255, 0.63);
-    padding: 20px;
 }
 .Image{
     float: right;
@@ -59,12 +59,12 @@ h1{
 }
 
 .contained .containedFooter .Footer{
+    padding: 20px;
     background: rgba(87, 87, 87, 0.32);
     backdrop-filter: blur(5px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     border-radius: 10px 10px 10px 10px;
     border: 2px solid rgba(255, 255, 255, 0.63);
-    padding: 20px;
 
 }
 .Footer{
